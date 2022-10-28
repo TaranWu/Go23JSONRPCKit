@@ -1,0 +1,6 @@
+framework module Pods_Go23JSONRPCKit_Tests {
+  umbrella header "Pods-Go23JSONRPCKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

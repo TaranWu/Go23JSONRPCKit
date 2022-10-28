@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Go23JSONRPCKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Go23JSONRPCKit.'
+  s.summary          = 'Go23JSONRPCKit functionality'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Go23JSONRPCKit functionality files.
                        DESC
 
   s.homepage         = 'https://github.com/TaranWu/Go23JSONRPCKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'TaranWu' => 'NA' }
   s.source           = { :git => 'https://github.com/TaranWu/Go23JSONRPCKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
+  s.ios.deployment_target = '13.0'
+  s.swift_version    = '5.0'
+  s.platform         = :ios, "13.0"
   s.source_files = 'Go23JSONRPCKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Go23JSONRPCKit' => ['Go23JSONRPCKit/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Result'
 end
