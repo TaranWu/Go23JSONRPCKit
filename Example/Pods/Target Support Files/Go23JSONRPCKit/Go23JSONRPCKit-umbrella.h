@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Go23JSONRPCKit.h"
 
 FOUNDATION_EXPORT double Go23JSONRPCKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char Go23JSONRPCKitVersionString[];

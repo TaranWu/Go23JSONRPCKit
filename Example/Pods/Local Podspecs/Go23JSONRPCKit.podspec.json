@@ -1,8 +1,8 @@
 {
   "name": "Go23JSONRPCKit",
   "version": "0.1.0",
-  "summary": "A short description of Go23JSONRPCKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Go23JSONRPCKit functionality",
+  "description": "Go23JSONRPCKit functionality files.",
   "homepage": "https://github.com/TaranWu/Go23JSONRPCKit",
   "license": {
     "type": "MIT",
@@ -16,7 +16,14 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "Go23JSONRPCKit/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Go23JSONRPCKit/Classes/**/*",
+  "dependencies": {
+    "Result": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

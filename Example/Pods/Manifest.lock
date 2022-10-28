@@ -1,15 +1,22 @@
 PODS:
-  - Go23JSONRPCKit (0.1.0)
+  - Go23JSONRPCKit (0.1.0):
+    - Result
+  - Result (5.0.0)
 
 DEPENDENCIES:
   - Go23JSONRPCKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Result
 
 EXTERNAL SOURCES:
   Go23JSONRPCKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Go23JSONRPCKit: 8ec6d8b1d12c791a00600571d340435b9942cb7c
+  Go23JSONRPCKit: 7f02d679fd15cbd549ca3c116c29c13a1791bd66
+  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
 
 PODFILE CHECKSUM: c06ce99c87661c388d5ccde2a64b7e32aecfa385
 

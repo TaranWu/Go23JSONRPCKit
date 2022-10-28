@@ -1,5 +1,4 @@
 import XCTest
-import Go23JSONRPCKit
 
 class Tests: XCTestCase {
     

@@ -7,85 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		049FCA68915EF78FEBCBA33B74296B32 /* Pods-Go23JSONRPCKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28337F691BE06069C67288A44552FF05 /* Pods-Go23JSONRPCKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0706ED207C0F3625E6FA31506DB6BFAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0B210490B0969A9E60A1953F27EC8A28 /* NoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D8D51BBD999B49B5454F9119AF8F2D /* NoError.swift */; };
+		0CFAC6CCD9FD20198885F7DB7F198A72 /* Result-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F522EE161F8044F529FD0B4EDEB720F /* Result-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12C19FBD4684BBEAC54AE6AA2BF92EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		49B24FAF9F456AEDB4C439B3FB6D60C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		53ACD041665DC446DF974585CCCC5F3C /* Pods-Go23JSONRPCKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 668A97DCF301F15E6FA7527512DC784B /* Pods-Go23JSONRPCKit_Example-dummy.m */; };
-		8504A8F06E65AF169414F44F989A2029 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD36BD1606751201A8E92DD181B12286 /* ReplaceMe.swift */; };
-		93C2B5606878B8FC6F432095243CEEF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		12E58832E7B0D771F60ECBD422D1B4E0 /* AnyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAF4FC351C06238C02BB894C996724 /* AnyError.swift */; };
+		1455DF5004D820CA744F1BE240AB64BA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E12A1D7976DC2CA532076B9684A1BD5 /* Result.swift */; };
+		29DA60AA9EC0F7F23E24543639DEE78F /* Go23JSONRPCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D47F2A6FFC1B6F4D81CF183B57DE1E /* Go23JSONRPCKit-dummy.m */; };
+		4D793217578120DFAFB73A11C6813F56 /* Batch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9925E4C22594068554833784370DD336 /* Batch.swift */; };
+		4DA48C979A0A8289F61C48DD7C639DFF /* IdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACB3C4A8CE29591EF04C6A1001D751A /* IdGenerator.swift */; };
+		546EC9956200B015E5B9F435CB4D3E90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5B0E34D25ADE00618FAE133BC7AE5056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5F2DC9C418C0BD93DE570305EF974489 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5709D368F5F13B570ECE27A8A1424 /* Request.swift */; };
+		6FD58DC115172955331DE047BAD25D27 /* NumberIdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA79B86E1B7F9C038061B2A7D05DDAB7 /* NumberIdGenerator.swift */; };
 		9E33785ED8ACEFD203A2C6165FEDDECB /* Pods-Go23JSONRPCKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D301EA8A7BD5D40282FB6DF5079DCF04 /* Pods-Go23JSONRPCKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D78AE3A74AD279E494282788BCCFCFCA /* Go23JSONRPCKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E552BC74DE523D2B01829101EDD745C /* Go23JSONRPCKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A345EDC495A399B00A0EBBE91D252E10 /* Pods-Go23JSONRPCKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28337F691BE06069C67288A44552FF05 /* Pods-Go23JSONRPCKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACA010496AF44D416F9E7138CD2B794C /* Pods-Go23JSONRPCKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 668A97DCF301F15E6FA7527512DC784B /* Pods-Go23JSONRPCKit_Example-dummy.m */; };
+		BA60DCA4B5791C4EA8AE8A3141765033 /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B6C7A81F3D31116681F64FB26330CD /* Id.swift */; };
+		C0788735CDEEB68B5D8AB7A835CCAB28 /* BatchElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E541740FE5138350300712C81440E /* BatchElement.swift */; };
+		C329FF6CC7C10E663D22E93294B46CBB /* JSONRPCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7B752A3F9BF12AC9CD00B3212F4137 /* JSONRPCError.swift */; };
+		C7B6CFDB86910E65DEC67DB90418C439 /* Go23JSONRPCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 252F121132B7D315EA9206E3107ADE17 /* Go23JSONRPCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0D504DB61E605B6EAE0D2DA8351EE68 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041DA1205E6DC63F5E5229B11DC63AB1 /* ResultProtocol.swift */; };
 		E49B8FC05A61F9779E2C53CB5709BE34 /* Pods-Go23JSONRPCKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA853626EAA1F357054F0820DAE48D5 /* Pods-Go23JSONRPCKit_Tests-dummy.m */; };
-		FFAB48CFAB298EACEB2774458CDCA828 /* Go23JSONRPCKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1A4F2599F1CC0278DAC4FB4F1338F1 /* Go23JSONRPCKit-dummy.m */; };
+		ED7AA7924DA8EBA47D6BC1236B72C9DB /* BatchFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E940415498F258A015A81AAFB3ADCC42 /* BatchFactory.swift */; };
+		F1799A02551480C07B89638660B89AE2 /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC950C770D3414D6A6403AF3685AD23 /* Result-dummy.m */; };
+		FDEAB6F8161E88ECA23211D62B464572 /* Go23JSONRPCKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 798739AD63CB48FCB1ACD7DD04A5F816 /* Go23JSONRPCKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BA6D12272D372D6224EF8CDDD0BBC545 /* PBXContainerItemProxy */ = {
+		6C807EF4208AC3F0647B867618DAA894 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 26445931DB43F946ADA81A334C57B336;
 			remoteInfo = "Pods-Go23JSONRPCKit_Example";
 		};
-		D3C183D311B3E3F6C5638913CAC3DF57 /* PBXContainerItemProxy */ = {
+		95F52F6F278FCB21119037DE23C7C440 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A46AF2C91A549A9D2AA87A55727731B1;
 			remoteInfo = Go23JSONRPCKit;
 		};
+		9F4E4C52D67394A8546F55BB0D1E2D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E163AC315AD24CFBD60C178D602BFC83;
+			remoteInfo = Result;
+		};
+		C3B5B1E65FD59BAD122A0E1FE30CBDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E163AC315AD24CFBD60C178D602BFC83;
+			remoteInfo = Result;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		041DA1205E6DC63F5E5229B11DC63AB1 /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
+		0461B3F80FC05957690727254D64DB36 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E768F3BA28AD7ED46A60BA3F8673BD /* Go23JSONRPCKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Go23JSONRPCKit-Info.plist"; sourceTree = "<group>"; };
 		081FDE7EB929795B0F63A5D89DB1D43C /* Pods-Go23JSONRPCKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go23JSONRPCKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		086E541740FE5138350300712C81440E /* BatchElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchElement.swift; path = Go23JSONRPCKit/Classes/BatchElement.swift; sourceTree = "<group>"; };
 		09276B1B5FC203B16EE6DE05585B16B5 /* Pods-Go23JSONRPCKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go23JSONRPCKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0E552BC74DE523D2B01829101EDD745C /* Go23JSONRPCKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Go23JSONRPCKit-umbrella.h"; sourceTree = "<group>"; };
+		0B7B752A3F9BF12AC9CD00B3212F4137 /* JSONRPCError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONRPCError.swift; path = Go23JSONRPCKit/Classes/JSONRPCError.swift; sourceTree = "<group>"; };
 		0F619CAB140E4C28592E8925C9657245 /* Pods-Go23JSONRPCKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go23JSONRPCKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		131640EB0B8E512FEC66F11E5FBDF543 /* Pods-Go23JSONRPCKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go23JSONRPCKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		15ADAABE8E011F3BF3D3A491409116E2 /* Pods-Go23JSONRPCKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Go23JSONRPCKit_Tests"; path = Pods_Go23JSONRPCKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DDC2400A0F90949D7E604608DE3114 /* Go23JSONRPCKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Go23JSONRPCKit.modulemap; sourceTree = "<group>"; };
+		1ACB3C4A8CE29591EF04C6A1001D751A /* IdGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IdGenerator.swift; path = Go23JSONRPCKit/Classes/IdGenerator.swift; sourceTree = "<group>"; };
 		20A2344FCC9F5B81D8B4FE8B68CC90F7 /* Pods-Go23JSONRPCKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Go23JSONRPCKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		272898442DA4DC1434D7A0C4CCD1D6FA /* Go23JSONRPCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Go23JSONRPCKit.debug.xcconfig; sourceTree = "<group>"; };
+		252F121132B7D315EA9206E3107ADE17 /* Go23JSONRPCKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Go23JSONRPCKit.h; path = Go23JSONRPCKit/Classes/Go23JSONRPCKit.h; sourceTree = "<group>"; };
 		28337F691BE06069C67288A44552FF05 /* Pods-Go23JSONRPCKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Go23JSONRPCKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		3435B2FDDD10576A6814114AA55D0C1D /* Go23JSONRPCKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Go23JSONRPCKit-Info.plist"; sourceTree = "<group>"; };
-		400E02A9A8E1B8D764E722E50507DCDA /* Go23JSONRPCKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Go23JSONRPCKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		332265C5CD5815565BEA54F2B065D634 /* Go23JSONRPCKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Go23JSONRPCKit-prefix.pch"; sourceTree = "<group>"; };
+		3E12A1D7976DC2CA532076B9684A1BD5 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
+		3FFAF4FC351C06238C02BB894C996724 /* AnyError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyError.swift; path = Result/AnyError.swift; sourceTree = "<group>"; };
 		4741E65600C299FB26078FED31700B30 /* Pods-Go23JSONRPCKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Go23JSONRPCKit_Example.modulemap"; sourceTree = "<group>"; };
-		49FC9A9E481330049C1B6679DC7EB507 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4C6AA474CEB4BB2479F08BD981303C75 /* Go23JSONRPCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Go23JSONRPCKit.debug.xcconfig; sourceTree = "<group>"; };
+		5666171B5ED0ADCED5F873544A0B380E /* Result.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.debug.xcconfig; sourceTree = "<group>"; };
+		5A11D8853888A11C7BE86FAE471AD4FD /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Result.modulemap; sourceTree = "<group>"; };
 		5DB8691C9798C9CA6D8BD50A2EDC46CA /* Pods-Go23JSONRPCKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go23JSONRPCKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		63976E8B3A04335BC8791B71AEED37E4 /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
 		668A97DCF301F15E6FA7527512DC784B /* Pods-Go23JSONRPCKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Go23JSONRPCKit_Example-dummy.m"; sourceTree = "<group>"; };
-		6CCC486556BA363E90BD0750B0528247 /* Go23JSONRPCKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Go23JSONRPCKit.modulemap; sourceTree = "<group>"; };
 		70167F870871F75090860ED30641A6E8 /* Pods-Go23JSONRPCKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Go23JSONRPCKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		70D47F2A6FFC1B6F4D81CF183B57DE1E /* Go23JSONRPCKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Go23JSONRPCKit-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		798739AD63CB48FCB1ACD7DD04A5F816 /* Go23JSONRPCKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Go23JSONRPCKit-umbrella.h"; sourceTree = "<group>"; };
 		7B70686DE7F5D773BDD1741C5A141001 /* Go23JSONRPCKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Go23JSONRPCKit; path = Go23JSONRPCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9D3F1B8137D07B72178F88219FA2E5 /* Pods-Go23JSONRPCKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go23JSONRPCKit_Example-Info.plist"; sourceTree = "<group>"; };
+		7F522EE161F8044F529FD0B4EDEB720F /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
 		82675063ACAE0762E7F318C8C208BAE9 /* Pods-Go23JSONRPCKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Go23JSONRPCKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8A21DA8A12F28E64F57A22E9FC324EE4 /* Pods-Go23JSONRPCKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Go23JSONRPCKit_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C18D392DBAF322868546ECF4928024B /* Result-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Result-Info.plist"; sourceTree = "<group>"; };
+		9925E4C22594068554833784370DD336 /* Batch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Batch.swift; path = Go23JSONRPCKit/Classes/Batch.swift; sourceTree = "<group>"; };
+		993F323A628BD07CDE807D4FF57353CE /* Result.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6D507411FB83E9606B5CB50EA26730F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AEA853626EAA1F357054F0820DAE48D5 /* Pods-Go23JSONRPCKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Go23JSONRPCKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		C25521CFF68F494A50D5B2D3F97A4D10 /* Go23JSONRPCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Go23JSONRPCKit.release.xcconfig; sourceTree = "<group>"; };
-		C7C666B95E2A78F7CE4432195850FE25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AEC950C770D3414D6A6403AF3685AD23 /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
+		B809AC92236B95CCE9CA49A5E8E0C518 /* Go23JSONRPCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Go23JSONRPCKit.release.xcconfig; sourceTree = "<group>"; };
+		B8D8D51BBD999B49B5454F9119AF8F2D /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = Result/NoError.swift; sourceTree = "<group>"; };
+		BA79B86E1B7F9C038061B2A7D05DDAB7 /* NumberIdGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberIdGenerator.swift; path = Go23JSONRPCKit/Classes/NumberIdGenerator.swift; sourceTree = "<group>"; };
 		D301EA8A7BD5D40282FB6DF5079DCF04 /* Pods-Go23JSONRPCKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Go23JSONRPCKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D352CA7B27A933F61C54931A128DAEB7 /* Pods-Go23JSONRPCKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Go23JSONRPCKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ED1A4F2599F1CC0278DAC4FB4F1338F1 /* Go23JSONRPCKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Go23JSONRPCKit-dummy.m"; sourceTree = "<group>"; };
+		D7B0376FF965A41C27EC3388A21EBC4B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E1B6C7A81F3D31116681F64FB26330CD /* Id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Id.swift; path = Go23JSONRPCKit/Classes/Id.swift; sourceTree = "<group>"; };
+		E5F5709D368F5F13B570ECE27A8A1424 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Go23JSONRPCKit/Classes/Request.swift; sourceTree = "<group>"; };
+		E940415498F258A015A81AAFB3ADCC42 /* BatchFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatchFactory.swift; path = Go23JSONRPCKit/Classes/BatchFactory.swift; sourceTree = "<group>"; };
+		ECA646173052106413681F71D32B07F3 /* Go23JSONRPCKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Go23JSONRPCKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EE3DC40A2F70B241FE2A26F4E12BA250 /* Pods-Go23JSONRPCKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Go23JSONRPCKit_Example"; path = Pods_Go23JSONRPCKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AD3689CE711AF3FCFAE4A74A80FC45 /* Pods-Go23JSONRPCKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Go23JSONRPCKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FD36BD1606751201A8E92DD181B12286 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = Go23JSONRPCKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		FDC6AC52F952C0061C10C1BE42DFACBA /* Go23JSONRPCKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Go23JSONRPCKit-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24553124238ACDC0CCFF218CB7DAF5A6 /* Frameworks */ = {
+		175435A994616F0E13CF87290AA2DF2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49B24FAF9F456AEDB4C439B3FB6D60C8 /* Foundation.framework in Frameworks */,
+				0706ED207C0F3625E6FA31506DB6BFAB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C0DB7341533B9836D97AF1D790857A5 /* Frameworks */ = {
+		3C931F846FE03EEA7F2ACBCB620C45E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C2B5606878B8FC6F432095243CEEF0 /* Foundation.framework in Frameworks */,
+				5B0E34D25ADE00618FAE133BC7AE5056 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +146,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFC079E412CEBDB2417EB5BA2819EE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546EC9956200B015E5B9F435CB4D3E90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040AE59E2C82420B6AA50D7757232C26 /* Go23JSONRPCKit */ = {
+			isa = PBXGroup;
+			children = (
+				9925E4C22594068554833784370DD336 /* Batch.swift */,
+				086E541740FE5138350300712C81440E /* BatchElement.swift */,
+				E940415498F258A015A81AAFB3ADCC42 /* BatchFactory.swift */,
+				E1B6C7A81F3D31116681F64FB26330CD /* Id.swift */,
+				1ACB3C4A8CE29591EF04C6A1001D751A /* IdGenerator.swift */,
+				0B7B752A3F9BF12AC9CD00B3212F4137 /* JSONRPCError.swift */,
+				252F121132B7D315EA9206E3107ADE17 /* Go23JSONRPCKit.h */,
+				BA79B86E1B7F9C038061B2A7D05DDAB7 /* NumberIdGenerator.swift */,
+				E5F5709D368F5F13B570ECE27A8A1424 /* Request.swift */,
+				07070D85C8523E35F9881899F0BD83D5 /* Pod */,
+				C37DF2801E5DF5B6E116A5063FF49BBB /* Support Files */,
+			);
+			name = Go23JSONRPCKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		07070D85C8523E35F9881899F0BD83D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ECA646173052106413681F71D32B07F3 /* Go23JSONRPCKit.podspec */,
+				A6D507411FB83E9606B5CB50EA26730F /* LICENSE */,
+				D7B0376FF965A41C27EC3388A21EBC4B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		0CD56F00A82735B7C8E1005AEFF7E098 /* Pods-Go23JSONRPCKit_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,25 +212,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1AC8948C24E933C4D5158A4126AB158D /* Go23JSONRPCKit */ = {
+		34F4CBEC66B624914BDCEB0754DCE94A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FD36BD1606751201A8E92DD181B12286 /* ReplaceMe.swift */,
-				1DB9CAC962E5FA17C31C93F4B5F65684 /* Pod */,
-				9909273CF38778655440452BF791A6AC /* Support Files */,
+				040AE59E2C82420B6AA50D7757232C26 /* Go23JSONRPCKit */,
 			);
-			name = Go23JSONRPCKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		1DB9CAC962E5FA17C31C93F4B5F65684 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				400E02A9A8E1B8D764E722E50507DCDA /* Go23JSONRPCKit.podspec */,
-				C7C666B95E2A78F7CE4432195850FE25 /* LICENSE */,
-				49FC9A9E481330049C1B6679DC7EB507 /* README.md */,
-			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -155,37 +228,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		74D36958BCB86693D0907A4A8E34ECE3 /* Products */ = {
+		A51F00B4B0588860C55DD9B4D3A4D671 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B70686DE7F5D773BDD1741C5A141001 /* Go23JSONRPCKit */,
-				EE3DC40A2F70B241FE2A26F4E12BA250 /* Pods-Go23JSONRPCKit_Example */,
-				15ADAABE8E011F3BF3D3A491409116E2 /* Pods-Go23JSONRPCKit_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9909273CF38778655440452BF791A6AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6CCC486556BA363E90BD0750B0528247 /* Go23JSONRPCKit.modulemap */,
-				ED1A4F2599F1CC0278DAC4FB4F1338F1 /* Go23JSONRPCKit-dummy.m */,
-				3435B2FDDD10576A6814114AA55D0C1D /* Go23JSONRPCKit-Info.plist */,
-				FDC6AC52F952C0061C10C1BE42DFACBA /* Go23JSONRPCKit-prefix.pch */,
-				0E552BC74DE523D2B01829101EDD745C /* Go23JSONRPCKit-umbrella.h */,
-				272898442DA4DC1434D7A0C4CCD1D6FA /* Go23JSONRPCKit.debug.xcconfig */,
-				C25521CFF68F494A50D5B2D3F97A4D10 /* Go23JSONRPCKit.release.xcconfig */,
+				5A11D8853888A11C7BE86FAE471AD4FD /* Result.modulemap */,
+				AEC950C770D3414D6A6403AF3685AD23 /* Result-dummy.m */,
+				8C18D392DBAF322868546ECF4928024B /* Result-Info.plist */,
+				63976E8B3A04335BC8791B71AEED37E4 /* Result-prefix.pch */,
+				7F522EE161F8044F529FD0B4EDEB720F /* Result-umbrella.h */,
+				5666171B5ED0ADCED5F873544A0B380E /* Result.debug.xcconfig */,
+				993F323A628BD07CDE807D4FF57353CE /* Result.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Go23JSONRPCKit";
-			sourceTree = "<group>";
-		};
-		A3351F6BB2A4B3A51F42D5F66805511B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1AC8948C24E933C4D5158A4126AB158D /* Go23JSONRPCKit */,
-			);
-			name = "Development Pods";
+			path = "../Target Support Files/Result";
 			sourceTree = "<group>";
 		};
 		AA5F957632A66052BCFC9A5840522737 /* Pods-Go23JSONRPCKit_Tests */ = {
@@ -204,13 +259,40 @@
 			path = "Target Support Files/Pods-Go23JSONRPCKit_Tests";
 			sourceTree = "<group>";
 		};
+		AF9C16CE80CE94D7DBE455A091FBBF41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B70686DE7F5D773BDD1741C5A141001 /* Go23JSONRPCKit */,
+				EE3DC40A2F70B241FE2A26F4E12BA250 /* Pods-Go23JSONRPCKit_Example */,
+				15ADAABE8E011F3BF3D3A491409116E2 /* Pods-Go23JSONRPCKit_Tests */,
+				0461B3F80FC05957690727254D64DB36 /* Result.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C37DF2801E5DF5B6E116A5063FF49BBB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17DDC2400A0F90949D7E604608DE3114 /* Go23JSONRPCKit.modulemap */,
+				70D47F2A6FFC1B6F4D81CF183B57DE1E /* Go23JSONRPCKit-dummy.m */,
+				05E768F3BA28AD7ED46A60BA3F8673BD /* Go23JSONRPCKit-Info.plist */,
+				332265C5CD5815565BEA54F2B065D634 /* Go23JSONRPCKit-prefix.pch */,
+				798739AD63CB48FCB1ACD7DD04A5F816 /* Go23JSONRPCKit-umbrella.h */,
+				4C6AA474CEB4BB2479F08BD981303C75 /* Go23JSONRPCKit.debug.xcconfig */,
+				B809AC92236B95CCE9CA49A5E8E0C518 /* Go23JSONRPCKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Go23JSONRPCKit";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A3351F6BB2A4B3A51F42D5F66805511B /* Development Pods */,
+				34F4CBEC66B624914BDCEB0754DCE94A /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				74D36958BCB86693D0907A4A8E34ECE3 /* Products */,
+				D81359C028F70B4E7727EE2056212909 /* Pods */,
+				AF9C16CE80CE94D7DBE455A091FBBF41 /* Products */,
 				18A276818BB1A21DF24862F30CBE81C6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -223,9 +305,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D81359C028F70B4E7727EE2056212909 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E81D417B04EBAC68FACA728589B82036 /* Result */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E81D417B04EBAC68FACA728589B82036 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				3FFAF4FC351C06238C02BB894C996724 /* AnyError.swift */,
+				B8D8D51BBD999B49B5454F9119AF8F2D /* NoError.swift */,
+				3E12A1D7976DC2CA532076B9684A1BD5 /* Result.swift */,
+				041DA1205E6DC63F5E5229B11DC63AB1 /* ResultProtocol.swift */,
+				A51F00B4B0588860C55DD9B4D3A4D671 /* Support Files */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0A65C8E1ABDACE615557C2C4B9A50359 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEAB6F8161E88ECA23211D62B464572 /* Go23JSONRPCKit-umbrella.h in Headers */,
+				C7B6CFDB86910E65DEC67DB90418C439 /* Go23JSONRPCKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AAFF29D86A925AA6AA62B0DD63F1915 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,19 +345,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3E103E4038AA0004203C06BA0DE50D6 /* Headers */ = {
+		7B790A178A8B9A83967041F2DAA697BC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049FCA68915EF78FEBCBA33B74296B32 /* Pods-Go23JSONRPCKit_Example-umbrella.h in Headers */,
+				0CFAC6CCD9FD20198885F7DB7F198A72 /* Result-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F07D4EBE49022C61B2CB50CE7E47FC03 /* Headers */ = {
+		DE7BD3D7B770C79514812147E7E93BBF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78AE3A74AD279E494282788BCCFCFCA /* Go23JSONRPCKit-umbrella.h in Headers */,
+				A345EDC495A399B00A0EBBE91D252E10 /* Pods-Go23JSONRPCKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +376,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9ABDFC071B533665F8AB666C1CC0F230 /* PBXTargetDependency */,
+				6507E0F183115EC4A7423C6728FAB9F1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Go23JSONRPCKit_Tests";
 			productName = Pods_Go23JSONRPCKit_Tests;
@@ -274,17 +385,18 @@
 		};
 		26445931DB43F946ADA81A334C57B336 /* Pods-Go23JSONRPCKit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEA92CC2B8A57B4192AB4165764A963E /* Build configuration list for PBXNativeTarget "Pods-Go23JSONRPCKit_Example" */;
+			buildConfigurationList = 1C45CE327145C40DDC0934864C14791B /* Build configuration list for PBXNativeTarget "Pods-Go23JSONRPCKit_Example" */;
 			buildPhases = (
-				B3E103E4038AA0004203C06BA0DE50D6 /* Headers */,
-				3F80B14A82E9A92124F502AC261E579E /* Sources */,
-				3C0DB7341533B9836D97AF1D790857A5 /* Frameworks */,
-				01FF5ACA16DE40FCE16B306227292119 /* Resources */,
+				DE7BD3D7B770C79514812147E7E93BBF /* Headers */,
+				142E1BBEA775577774419BBFE228CD8F /* Sources */,
+				CFC079E412CEBDB2417EB5BA2819EE73 /* Frameworks */,
+				B79CA3B1AD9CD243CF5D81FA42521774 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7F138F00F40863F14AFE70EF0911D52E /* PBXTargetDependency */,
+				FF1C653E4BCCFD90285FE592DDF8B341 /* PBXTargetDependency */,
+				F1F06F825109210C4D854C44FABE5752 /* PBXTargetDependency */,
 			);
 			name = "Pods-Go23JSONRPCKit_Example";
 			productName = Pods_Go23JSONRPCKit_Example;
@@ -293,20 +405,39 @@
 		};
 		A46AF2C91A549A9D2AA87A55727731B1 /* Go23JSONRPCKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CCFB73B2B952516416FA7902B12ED634 /* Build configuration list for PBXNativeTarget "Go23JSONRPCKit" */;
+			buildConfigurationList = 2D40CDB2B87AA8585261BCE289D48CDB /* Build configuration list for PBXNativeTarget "Go23JSONRPCKit" */;
 			buildPhases = (
-				F07D4EBE49022C61B2CB50CE7E47FC03 /* Headers */,
-				EF419C7184E80E19B04B17386DFF97FA /* Sources */,
-				24553124238ACDC0CCFF218CB7DAF5A6 /* Frameworks */,
-				26FE8A9B7FBE204F07EABC2E57BA4197 /* Resources */,
+				0A65C8E1ABDACE615557C2C4B9A50359 /* Headers */,
+				11130D7D31BBDCCE2719AA6543C9C089 /* Sources */,
+				175435A994616F0E13CF87290AA2DF2D /* Frameworks */,
+				529FABEAA0E42258BACFE20C30D6CA84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CAAFE0A19DE80D40826F04EE6D20A72 /* PBXTargetDependency */,
+			);
+			name = Go23JSONRPCKit;
+			productName = Go23JSONRPCKit;
+			productReference = 7B70686DE7F5D773BDD1741C5A141001 /* Go23JSONRPCKit */;
+			productType = "com.apple.product-type.framework";
+		};
+		E163AC315AD24CFBD60C178D602BFC83 /* Result */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B4A4ADAA2C4EC5254267406B90FD691 /* Build configuration list for PBXNativeTarget "Result" */;
+			buildPhases = (
+				7B790A178A8B9A83967041F2DAA697BC /* Headers */,
+				20ED9E84AB4C6D56EECC4A5252CA03D4 /* Sources */,
+				3C931F846FE03EEA7F2ACBCB620C45E8 /* Frameworks */,
+				B12D0F46CCDB6D9520ED87FFD7A49CA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Go23JSONRPCKit;
-			productName = Go23JSONRPCKit;
-			productReference = 7B70686DE7F5D773BDD1741C5A141001 /* Go23JSONRPCKit */;
+			name = Result;
+			productName = Result;
+			productReference = 0461B3F80FC05957690727254D64DB36 /* Result.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,26 +458,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 74D36958BCB86693D0907A4A8E34ECE3 /* Products */;
+			productRefGroup = AF9C16CE80CE94D7DBE455A091FBBF41 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A46AF2C91A549A9D2AA87A55727731B1 /* Go23JSONRPCKit */,
 				26445931DB43F946ADA81A334C57B336 /* Pods-Go23JSONRPCKit_Example */,
 				1F6CA52BF5F6CBF8AA5B0612D4792109 /* Pods-Go23JSONRPCKit_Tests */,
+				E163AC315AD24CFBD60C178D602BFC83 /* Result */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01FF5ACA16DE40FCE16B306227292119 /* Resources */ = {
+		529FABEAA0E42258BACFE20C30D6CA84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26FE8A9B7FBE204F07EABC2E57BA4197 /* Resources */ = {
+		B12D0F46CCDB6D9520ED87FFD7A49CA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B79CA3B1AD9CD243CF5D81FA42521774 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,72 +510,72 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F80B14A82E9A92124F502AC261E579E /* Sources */ = {
+		11130D7D31BBDCCE2719AA6543C9C089 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53ACD041665DC446DF974585CCCC5F3C /* Pods-Go23JSONRPCKit_Example-dummy.m in Sources */,
+				4D793217578120DFAFB73A11C6813F56 /* Batch.swift in Sources */,
+				C0788735CDEEB68B5D8AB7A835CCAB28 /* BatchElement.swift in Sources */,
+				ED7AA7924DA8EBA47D6BC1236B72C9DB /* BatchFactory.swift in Sources */,
+				29DA60AA9EC0F7F23E24543639DEE78F /* Go23JSONRPCKit-dummy.m in Sources */,
+				BA60DCA4B5791C4EA8AE8A3141765033 /* Id.swift in Sources */,
+				4DA48C979A0A8289F61C48DD7C639DFF /* IdGenerator.swift in Sources */,
+				C329FF6CC7C10E663D22E93294B46CBB /* JSONRPCError.swift in Sources */,
+				6FD58DC115172955331DE047BAD25D27 /* NumberIdGenerator.swift in Sources */,
+				5F2DC9C418C0BD93DE570305EF974489 /* Request.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF419C7184E80E19B04B17386DFF97FA /* Sources */ = {
+		142E1BBEA775577774419BBFE228CD8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFAB48CFAB298EACEB2774458CDCA828 /* Go23JSONRPCKit-dummy.m in Sources */,
-				8504A8F06E65AF169414F44F989A2029 /* ReplaceMe.swift in Sources */,
+				ACA010496AF44D416F9E7138CD2B794C /* Pods-Go23JSONRPCKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20ED9E84AB4C6D56EECC4A5252CA03D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E58832E7B0D771F60ECBD422D1B4E0 /* AnyError.swift in Sources */,
+				0B210490B0969A9E60A1953F27EC8A28 /* NoError.swift in Sources */,
+				1455DF5004D820CA744F1BE240AB64BA /* Result.swift in Sources */,
+				F1799A02551480C07B89638660B89AE2 /* Result-dummy.m in Sources */,
+				E0D504DB61E605B6EAE0D2DA8351EE68 /* ResultProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7F138F00F40863F14AFE70EF0911D52E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Go23JSONRPCKit;
-			target = A46AF2C91A549A9D2AA87A55727731B1 /* Go23JSONRPCKit */;
-			targetProxy = D3C183D311B3E3F6C5638913CAC3DF57 /* PBXContainerItemProxy */;
-		};
-		9ABDFC071B533665F8AB666C1CC0F230 /* PBXTargetDependency */ = {
+		6507E0F183115EC4A7423C6728FAB9F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Go23JSONRPCKit_Example";
 			target = 26445931DB43F946ADA81A334C57B336 /* Pods-Go23JSONRPCKit_Example */;
-			targetProxy = BA6D12272D372D6224EF8CDDD0BBC545 /* PBXContainerItemProxy */;
+			targetProxy = 6C807EF4208AC3F0647B867618DAA894 /* PBXContainerItemProxy */;
+		};
+		9CAAFE0A19DE80D40826F04EE6D20A72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = E163AC315AD24CFBD60C178D602BFC83 /* Result */;
+			targetProxy = 9F4E4C52D67394A8546F55BB0D1E2D4E /* PBXContainerItemProxy */;
+		};
+		F1F06F825109210C4D854C44FABE5752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = E163AC315AD24CFBD60C178D602BFC83 /* Result */;
+			targetProxy = C3B5B1E65FD59BAD122A0E1FE30CBDDC /* PBXContainerItemProxy */;
+		};
+		FF1C653E4BCCFD90285FE592DDF8B341 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Go23JSONRPCKit;
+			target = A46AF2C91A549A9D2AA87A55727731B1 /* Go23JSONRPCKit */;
+			targetProxy = 95F52F6F278FCB21119037DE23C7C440 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E57ED94FD1F850BFAB2B4E10AE7DFFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 272898442DA4DC1434D7A0C4CCD1D6FA /* Go23JSONRPCKit.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit.modulemap";
-				PRODUCT_MODULE_NAME = Go23JSONRPCKit;
-				PRODUCT_NAME = Go23JSONRPCKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		250A9DDC8298CF1E56B9776EEED4B6E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 081FDE7EB929795B0F63A5D89DB1D43C /* Pods-Go23JSONRPCKit_Tests.release.xcconfig */;
@@ -504,9 +643,9 @@
 			};
 			name = Debug;
 		};
-		330920C7360DC4FDF08BA87FB4AFF669 /* Release */ = {
+		4E2D30A529FD5C532DAAEB6045610B03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 131640EB0B8E512FEC66F11E5FBDF543 /* Pods-Go23JSONRPCKit_Example.release.xcconfig */;
+			baseConfigurationReference = 82675063ACAE0762E7F318C8C208BAE9 /* Pods-Go23JSONRPCKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -532,43 +671,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		6988C19237617FE80E4013C2155EF347 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C25521CFF68F494A50D5B2D3F97A4D10 /* Go23JSONRPCKit.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit.modulemap";
-				PRODUCT_MODULE_NAME = Go23JSONRPCKit;
-				PRODUCT_NAME = Go23JSONRPCKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -625,12 +731,135 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		99421E5010D1427A18D8B6144F04CE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993F323A628BD07CDE807D4FF57353CE /* Result.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Result-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				PRODUCT_MODULE_NAME = Result;
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9AA7A3D7C9F6BBD1EDBE88350B0DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B809AC92236B95CCE9CA49A5E8E0C518 /* Go23JSONRPCKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit.modulemap";
+				PRODUCT_MODULE_NAME = Go23JSONRPCKit;
+				PRODUCT_NAME = Go23JSONRPCKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B12FEEAB5C54254FAA36C0A6D8EDB0A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5666171B5ED0ADCED5F873544A0B380E /* Result.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Result-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				PRODUCT_MODULE_NAME = Result;
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BBF73334645A31FEE252586FCD078CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C6AA474CEB4BB2479F08BD981303C75 /* Go23JSONRPCKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Go23JSONRPCKit/Go23JSONRPCKit.modulemap";
+				PRODUCT_MODULE_NAME = Go23JSONRPCKit;
+				PRODUCT_NAME = Go23JSONRPCKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -698,9 +927,9 @@
 			};
 			name = Debug;
 		};
-		E1DF81584B86F000F850EAAC354F2E04 /* Debug */ = {
+		F61B62076E48F7BB9C027B88DCF3E9A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82675063ACAE0762E7F318C8C208BAE9 /* Pods-Go23JSONRPCKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 131640EB0B8E512FEC66F11E5FBDF543 /* Pods-Go23JSONRPCKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -726,14 +955,33 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C45CE327145C40DDC0934864C14791B /* Build configuration list for PBXNativeTarget "Pods-Go23JSONRPCKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2D30A529FD5C532DAAEB6045610B03 /* Debug */,
+				F61B62076E48F7BB9C027B88DCF3E9A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D40CDB2B87AA8585261BCE289D48CDB /* Build configuration list for PBXNativeTarget "Go23JSONRPCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF73334645A31FEE252586FCD078CFF /* Debug */,
+				A9AA7A3D7C9F6BBD1EDBE88350B0DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -743,20 +991,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CCFB73B2B952516416FA7902B12ED634 /* Build configuration list for PBXNativeTarget "Go23JSONRPCKit" */ = {
+		7B4A4ADAA2C4EC5254267406B90FD691 /* Build configuration list for PBXNativeTarget "Result" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0E57ED94FD1F850BFAB2B4E10AE7DFFF /* Debug */,
-				6988C19237617FE80E4013C2155EF347 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEA92CC2B8A57B4192AB4165764A963E /* Build configuration list for PBXNativeTarget "Pods-Go23JSONRPCKit_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1DF81584B86F000F850EAAC354F2E04 /* Debug */,
-				330920C7360DC4FDF08BA87FB4AFF669 /* Release */,
+				B12FEEAB5C54254FAA36C0A6D8EDB0A2 /* Debug */,
+				99421E5010D1427A18D8B6144F04CE60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -37,6 +37,9 @@ extension Id {
 }
 
 extension Id: Hashable {
+    public func hash(into hasher: inout Hasher) {
+        
+    }
     
     public var hashValue: Int {
         switch self {
